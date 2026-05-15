@@ -70,6 +70,19 @@ if Code.ensure_loaded?(Plug.Router) do
     plug(Plug.Logger, log: :debug)
     plug(:match)
     plug(Plug.Parsers, parsers: [:urlencoded], pass: ["text/*"])
+
+    # Pull the locale from the `?locale=` query param and set it
+    # for `Localize.get_locale/0` and BOTH Gettext backends — the
+    # playground's own visualizer-chrome catalog and the picker
+    # catalog living in `ex_money_input`. Without this every
+    # `~t"…"` falls back to the default locale even when the URL
+    # selector says `de`.
+    plug(Localize.Plug.PutLocale,
+      from: [:query, :accept_language],
+      param: "locale",
+      gettext: [MoneyInputPlayground.Gettext, Money.Input.Gettext]
+    )
+
     plug(:dispatch)
 
     alias MoneyInputPlayground.Visualizer.Assets

@@ -1,0 +1,11 @@
+## English source catalog.
+##
+## Intentionally empty: msgstrs fall back to msgids, which ARE
+## the English text. The file exists so `Gettext.known_locales/1`
+## returns "en" alongside the translated locales — without it,
+## `Localize.LanguageTag.best_match("en", [<known>])` falls
+## through to the first non-English entry, causing every
+## "en" request to render in some other locale.
+msgid ""
+msgstr ""
+"Language: en\n"
