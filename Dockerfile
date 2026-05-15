@@ -35,6 +35,12 @@ RUN mix deps.compile
 # Copy the rest of the source and compile.
 COPY config config
 COPY lib lib
+# priv/gettext holds the .po catalogs that the MoneyInputPlayground.Gettext
+# backend compiles in. Without this COPY the catalog is empty in the
+# container and Gettext.known_locales returns [], causing every
+# `Localize.Plug.PutLocale` lookup to fall back to a "no matching
+# Gettext locale" warning and skip put_locale entirely.
+COPY priv priv
 RUN mix compile
 
 # Build the release.

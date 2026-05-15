@@ -56,7 +56,7 @@ msgid "Cross-locale parsing"
 msgstr "Parsen über Locales hinweg"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:35
-#: lib/money_input_playground/visualizer/locale_view.ex:65
+#: lib/money_input_playground/visualizer/locale_view.ex:76
 #, elixir-autogen, icu-format
 msgid "Currency"
 msgstr "Währung"
@@ -72,7 +72,7 @@ msgstr "Währung (Geldmodus)"
 msgid "Currency picker"
 msgstr "Währungsauswahl"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:61
+#: lib/money_input_playground/visualizer/locale_view.ex:64
 #, elixir-autogen, icu-format
 msgid "Decimal"
 msgstr "Dezimal"
@@ -82,7 +82,7 @@ msgstr "Dezimal"
 msgid "Default currency"
 msgstr "Standardwährung"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:64
+#: lib/money_input_playground/visualizer/locale_view.ex:73
 #, elixir-autogen, icu-format
 msgid "Digits"
 msgstr "Ziffern"
@@ -107,17 +107,17 @@ msgstr "Format"
 msgid "Format across locales"
 msgstr "Über Locales hinweg formatieren"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:62
+#: lib/money_input_playground/visualizer/locale_view.ex:67
 #, elixir-autogen, icu-format
 msgid "Group"
 msgstr "Gruppe"
 
-#: lib/money_input_playground/visualizer/render.ex:263
+#: lib/money_input_playground/visualizer/render.ex:265
 #, elixir-autogen, icu-format
 msgid "Headless API: <code>Money.Input.Cast</code>, <code>Money.Input.Validator</code>, <code>Money.Input.Currency</code>."
 msgstr "Headless-API: <code>Money.Input.Cast</code>, <code>Money.Input.Validator</code>, <code>Money.Input.Currency</code>."
 
-#: lib/money_input_playground/visualizer/locale_view.ex:68
+#: lib/money_input_playground/visualizer/locale_view.ex:85
 #, elixir-autogen, icu-format
 msgid "ISO digits"
 msgstr "ISO-Ziffern"
@@ -140,7 +140,7 @@ msgstr "Live-HEEx-Renderings von <code>Money.Input.Components.money_input/1</cod
 
 #: lib/money_input_playground/visualizer/format_view.ex:108
 #: lib/money_input_playground/visualizer/input_view.ex:39
-#: lib/money_input_playground/visualizer/locale_view.ex:60
+#: lib/money_input_playground/visualizer/locale_view.ex:61
 #: lib/money_input_playground/visualizer/parse_view.ex:106
 #: lib/money_input_playground/visualizer/render.ex:80
 #, elixir-autogen, icu-format
@@ -152,7 +152,7 @@ msgstr "Locale"
 msgid "Locale display data"
 msgstr "Locale-Anzeigedaten"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:63
+#: lib/money_input_playground/visualizer/locale_view.ex:70
 #, elixir-autogen, icu-format
 msgid "Minus"
 msgstr "Minus"
@@ -205,7 +205,7 @@ msgstr "Punkt als Dezimaltrennzeichen, keine Gruppierung — z. B. 1234567.89"
 msgid "Plain number"
 msgstr "Einfache Zahl"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:67
+#: lib/money_input_playground/visualizer/locale_view.ex:82
 #, elixir-autogen, icu-format
 msgid "Position"
 msgstr "Position"
@@ -240,7 +240,7 @@ msgstr "Dieselbe Eingabe, jede Locale. Zeigt, wie <code>Money.parse</code> die D
 msgid "Same parsed value, every locale. Watch the decimal/grouping separators invert, the currency symbol position swap, and the native digit system change in Arabic and Persian."
 msgstr "Derselbe geparste Wert, jede Locale. Beobachten Sie, wie sich die Dezimal-/Tausendertrennzeichen vertauschen, die Position des Währungssymbols wechselt und das native Ziffernsystem im Arabischen und Persischen wechselt."
 
-#: lib/money_input_playground/visualizer/locale_view.ex:66
+#: lib/money_input_playground/visualizer/locale_view.ex:79
 #, elixir-autogen, icu-format
 msgid "Symbol"
 msgstr "Symbol"
@@ -270,7 +270,7 @@ msgstr "Wird verwendet, wenn der Formularwert keine Währung enthält. Entsprich
 msgid "What <code>Money.Input.Currency.currency_for_locale/2</code> returns for the current locale + currency combination — the data the JS hook reads from <code>data-</code> attributes."
 msgstr "Was <code>Money.Input.Currency.currency_for_locale/2</code> für die aktuelle Locale- und Währungskombination zurückgibt — die Daten, die der JS-Hook aus <code>data-</code>-Attributen liest."
 
-#: lib/money_input_playground/visualizer/render.ex:95
+#: lib/money_input_playground/visualizer/render.ex:96
 #, elixir-autogen, icu-format
 msgid "locale-aware number & money input — try how it behaves across locales and currencies"
 msgstr "Locale-bewusste Zahlen- und Geldeingabe — testen Sie ihr Verhalten in verschiedenen Locales und Währungen"

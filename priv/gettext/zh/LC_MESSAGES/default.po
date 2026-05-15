@@ -8,135 +8,135 @@
 ## to merge POT files into PO files.
 msgid ""
 msgstr ""
-"Language: fr\n"
+"Language: zh\n"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:131
 #, elixir-autogen, icu-format
 msgid "(empty)"
-msgstr "(vide)"
+msgstr "(空)"
 
 #: lib/money_input_playground/visualizer/format_view.ex:128
 #, elixir-autogen, icu-format
 msgid "(invalid input)"
-msgstr "(entrée invalide)"
+msgstr "(输入无效)"
 
 #: lib/money_input_playground/visualizer/format_view.ex:54
 #, elixir-autogen, icu-format
 msgid "Amount (canonical form)"
-msgstr "Montant (forme canonique)"
+msgstr "金额（标准形式）"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:110
 #, elixir-autogen, icu-format
 msgid "Canonical"
-msgstr "Canonique"
+msgstr "标准形式"
 
 #: lib/money_input_playground/visualizer/input_view.ex:178
 #, elixir-autogen, icu-format
 msgid "Comma-separated ISO codes — pinned to the top of the picker. Tab out or press Enter to apply."
-msgstr "Codes ISO séparés par des virgules — épinglés en haut du sélecteur. Appuyez sur Tab ou Entrée pour appliquer."
+msgstr "用逗号分隔的 ISO 代码——固定在选择器顶部。按 Tab 或 Enter 应用。"
 
 #: lib/money_input_playground/visualizer/input_view.ex:228
 #, elixir-autogen, icu-format
 msgid "Component code"
-msgstr "Code du composant"
+msgstr "组件代码"
 
 #: lib/money_input_playground/visualizer/input_view.ex:237
 #, elixir-autogen, icu-format
 msgid "Copy HEEx call to clipboard"
-msgstr "Copier l'appel HEEx dans le presse-papiers"
+msgstr "复制 HEEx 调用到剪贴板"
 
 #: lib/money_input_playground/visualizer/format_view.ex:45
 #, elixir-autogen, icu-format
 msgid "Cross-locale formatting"
-msgstr "Formatage inter-locales"
+msgstr "跨语言环境格式化"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:40
 #, elixir-autogen, icu-format
 msgid "Cross-locale parsing"
-msgstr "Analyse inter-locales"
+msgstr "跨语言环境解析"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:35
 #: lib/money_input_playground/visualizer/locale_view.ex:76
 #, elixir-autogen, icu-format
 msgid "Currency"
-msgstr "Devise"
+msgstr "货币"
 
 #: lib/money_input_playground/visualizer/format_view.ex:63
 #: lib/money_input_playground/visualizer/parse_view.ex:57
 #, elixir-autogen, icu-format
 msgid "Currency (money mode)"
-msgstr "Devise (mode money)"
+msgstr "货币（money 模式）"
 
 #: lib/money_input_playground/visualizer/input_view.ex:151
 #, elixir-autogen, icu-format
 msgid "Currency picker"
-msgstr "Sélecteur de devise"
+msgstr "货币选择器"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:64
 #, elixir-autogen, icu-format
 msgid "Decimal"
-msgstr "Décimal"
+msgstr "小数点"
 
 #: lib/money_input_playground/visualizer/input_view.ex:46
 #, elixir-autogen, icu-format
 msgid "Default currency"
-msgstr "Devise par défaut"
+msgstr "默认货币"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:73
 #, elixir-autogen, icu-format
 msgid "Digits"
-msgstr "Chiffres"
+msgstr "数字"
 
 #: lib/money_input_playground/visualizer/input_view.ex:157
 #, elixir-autogen, icu-format
 msgid "Embed <code>&lt;.currency_picker&gt;</code> in <code>money_input</code>"
-msgstr "Intégrer <code>&lt;.currency_picker&gt;</code> dans <code>money_input</code>"
+msgstr "在 <code>money_input</code> 中嵌入 <code>&lt;.currency_picker&gt;</code>"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:29
 #, elixir-autogen, icu-format
 msgid "For every demo locale, the snapshot that <code>Money.Input.Currency.currency_for_locale/2</code> returns. This is what the server-side render writes into <code>data-</code> attributes for the JS hook to read."
-msgstr "Pour chaque locale de démonstration, l'instantané que renvoie <code>Money.Input.Currency.currency_for_locale/2</code>. C'est ce que le rendu côté serveur écrit dans les attributs <code>data-</code> pour que le hook JS le lise."
+msgstr "对于每个示例语言环境，<code>Money.Input.Currency.currency_for_locale/2</code> 返回的快照。这就是服务端渲染写入 <code>data-</code> 属性供 JS 钩子读取的数据。"
 
 #: lib/money_input_playground/visualizer/render.ex:79
 #, elixir-autogen, icu-format
 msgid "Format"
-msgstr "Formater"
+msgstr "格式化"
 
 #: lib/money_input_playground/visualizer/format_view.ex:66
 #, elixir-autogen, icu-format
 msgid "Format across locales"
-msgstr "Formater dans toutes les locales"
+msgstr "跨语言环境格式化"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:67
 #, elixir-autogen, icu-format
 msgid "Group"
-msgstr "Groupement"
+msgstr "千分位"
 
 #: lib/money_input_playground/visualizer/render.ex:265
 #, elixir-autogen, icu-format
 msgid "Headless API: <code>Money.Input.Cast</code>, <code>Money.Input.Validator</code>, <code>Money.Input.Currency</code>."
-msgstr "API headless : <code>Money.Input.Cast</code>, <code>Money.Input.Validator</code>, <code>Money.Input.Currency</code>."
+msgstr "无头 API：<code>Money.Input.Cast</code>、<code>Money.Input.Validator</code>、<code>Money.Input.Currency</code>。"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:85
 #, elixir-autogen, icu-format
 msgid "ISO digits"
-msgstr "Chiffres ISO"
+msgstr "ISO 位数"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:50
 #: lib/money_input_playground/visualizer/render.ex:77
 #, elixir-autogen, icu-format
 msgid "Input"
-msgstr "Saisie"
+msgstr "输入"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:40
 #, elixir-autogen, icu-format
 msgid "Inspect locales"
-msgstr "Inspecter les locales"
+msgstr "查看语言环境"
 
 #: lib/money_input_playground/visualizer/input_view.ex:32
 #, elixir-autogen, icu-format
 msgid "Live HEEx renders of <code>Money.Input.Components.money_input/1</code> and <code>Money.Input.Components.currency_picker/1</code>. For a plain number input (no currency), see the sibling <code>localize_inputs</code> package."
-msgstr "Rendus HEEx en direct de <code>Money.Input.Components.money_input/1</code> et <code>Money.Input.Components.currency_picker/1</code>. Pour une saisie numérique simple (sans devise), voir le paquet frère <code>localize_inputs</code>."
+msgstr "<code>Money.Input.Components.money_input/1</code> 和 <code>Money.Input.Components.currency_picker/1</code> 的实时 HEEx 渲染。如需纯数字输入（无货币），请查看姐妹包 <code>localize_inputs</code>。"
 
 #: lib/money_input_playground/visualizer/format_view.ex:108
 #: lib/money_input_playground/visualizer/input_view.ex:39
@@ -145,23 +145,23 @@ msgstr "Rendus HEEx en direct de <code>Money.Input.Components.money_input/1</cod
 #: lib/money_input_playground/visualizer/render.ex:80
 #, elixir-autogen, icu-format
 msgid "Locale"
-msgstr "Locale"
+msgstr "语言环境"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:26
 #, elixir-autogen, icu-format
 msgid "Locale display data"
-msgstr "Données d'affichage de la locale"
+msgstr "语言环境显示数据"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:70
 #, elixir-autogen, icu-format
 msgid "Minus"
-msgstr "Moins"
+msgstr "负号"
 
 #: lib/money_input_playground/visualizer/format_view.ex:62
 #: lib/money_input_playground/visualizer/parse_view.ex:56
 #, elixir-autogen, icu-format
 msgid "Mode"
-msgstr "Mode"
+msgstr "模式"
 
 #: lib/money_input_playground/visualizer/format_view.ex:83
 #: lib/money_input_playground/visualizer/parse_view.ex:80
@@ -172,125 +172,125 @@ msgstr "Money"
 #: lib/money_input_playground/visualizer/input_view.ex:29
 #, elixir-autogen, icu-format
 msgid "Money Input Components"
-msgstr "Composants Money Input"
+msgstr "Money Input 组件"
 
 #: lib/money_input_playground/visualizer/input_view.ex:123
 #, elixir-autogen, icu-format
 msgid "Money input"
-msgstr "Saisie monétaire"
+msgstr "金额输入"
 
 #: lib/money_input_playground/visualizer/render.ex:78
 #, elixir-autogen, icu-format
 msgid "Parse"
-msgstr "Analyser"
+msgstr "解析"
 
 #: lib/money_input_playground/visualizer/input_view.ex:63
 #, elixir-autogen, icu-format
 msgid "Parse & format"
-msgstr "Analyser et formater"
+msgstr "解析和格式化"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:60
 #, elixir-autogen, icu-format
 msgid "Parse across locales"
-msgstr "Analyser dans toutes les locales"
+msgstr "跨语言环境解析"
 
 #: lib/money_input_playground/visualizer/format_view.ex:60
 #, elixir-autogen, icu-format
 msgid "Period as decimal, no grouping — e.g. 1234567.89"
-msgstr "Point comme décimal, sans séparateur de milliers — ex. 1234567.89"
+msgstr "小数点用句点，无千分位 — 例：1234567.89"
 
 #: lib/money_input_playground/visualizer/format_view.ex:83
 #: lib/money_input_playground/visualizer/parse_view.ex:80
 #, elixir-autogen, icu-format
 msgid "Plain number"
-msgstr "Nombre simple"
+msgstr "纯数字"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:82
 #, elixir-autogen, icu-format
 msgid "Position"
-msgstr "Position"
+msgstr "位置"
 
 #: lib/money_input_playground/visualizer/input_view.ex:171
 #, elixir-autogen, icu-format
 msgid "Preferred currencies"
-msgstr "Devises préférées"
+msgstr "首选货币"
 
 #: lib/money_input_playground/visualizer/input_view.ex:306
 #, elixir-autogen, icu-format
 msgid "Resolved locale data"
-msgstr "Données de locale résolues"
+msgstr "已解析的语言环境数据"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:108
 #, elixir-autogen, icu-format
 msgid "Result"
-msgstr "Résultat"
+msgstr "结果"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:112
 #, elixir-autogen, icu-format
 msgid "Round-trip"
-msgstr "Aller-retour"
+msgstr "往返"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:43
 #, elixir-autogen, icu-format
 msgid "Same input, every locale. Demonstrates how <code>Money.parse</code> interprets the decimal and grouping separators per locale — and why a US user pasting <code>1,234.56</code> while their app is on <code>de</code> needs tolerant handling."
-msgstr "Même entrée, chaque locale. Montre comment <code>Money.parse</code> interprète les séparateurs décimaux et de milliers selon la locale — et pourquoi un utilisateur US qui colle <code>1,234.56</code> alors que son appli est en <code>de</code> a besoin d'une gestion tolérante."
+msgstr "相同输入，每种语言环境。展示 <code>Money.parse</code> 如何按语言环境解释小数点和千分位 — 以及为什么当应用是 <code>de</code> 而美国用户粘贴 <code>1,234.56</code> 时需要宽容处理。"
 
 #: lib/money_input_playground/visualizer/format_view.ex:48
 #, elixir-autogen, icu-format
 msgid "Same parsed value, every locale. Watch the decimal/grouping separators invert, the currency symbol position swap, and the native digit system change in Arabic and Persian."
-msgstr "Même valeur analysée, chaque locale. Observez l'inversion des séparateurs décimaux/de milliers, le changement de position du symbole monétaire et le passage au système de chiffres natif en arabe et persan."
+msgstr "相同的解析值，每种语言环境。请注意小数/千分位分隔符互换、货币符号位置切换、以及阿拉伯语和波斯语中本地数字系统的变化。"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:79
 #, elixir-autogen, icu-format
 msgid "Symbol"
-msgstr "Symbole"
+msgstr "符号"
 
 #: lib/money_input_playground/visualizer/input_view.ex:231
 #, elixir-autogen, icu-format
 msgid "The HEEx call site that renders the money_input above. Tweak the form controls and the code refreshes — copy straight into a LiveView template."
-msgstr "Le site d'appel HEEx qui restitue le money_input ci-dessus. Modifiez les contrôles du formulaire et le code se met à jour — à coller directement dans un template LiveView."
+msgstr "上面 money_input 的 HEEx 调用位置。调整表单控件，代码会随之更新 — 直接粘贴到 LiveView 模板中即可。"
 
 #: lib/money_input_playground/visualizer/input_view.ex:66
 #, elixir-autogen, icu-format
 msgid "Try"
-msgstr "Essayez"
+msgstr "试试"
 
 #: lib/money_input_playground/visualizer/parse_view.ex:63
 #, elixir-autogen, icu-format
 msgid "Try <code>1,234.56</code>, <code>1.234,56</code>, <code>1 234,56</code>, <code>(1234.56)</code>, <code>$1,234.56</code>"
-msgstr "Essayez <code>1,234.56</code>, <code>1.234,56</code>, <code>1 234,56</code>, <code>(1234.56)</code>, <code>$1,234.56</code>"
+msgstr "试试 <code>1,234.56</code>、<code>1.234,56</code>、<code>1 234,56</code>、<code>(1234.56)</code>、<code>$1,234.56</code>"
 
 #: lib/money_input_playground/visualizer/input_view.ex:49
 #, elixir-autogen, icu-format
 msgid "Used when the form value doesn't carry a currency. Maps to the component's `:default_currency` attr."
-msgstr "Utilisée lorsque la valeur du formulaire ne porte pas de devise. Correspond à l'attribut `:default_currency` du composant."
+msgstr "当表单值未带货币时使用。对应组件的 `:default_currency` 属性。"
 
 #: lib/money_input_playground/visualizer/input_view.ex:309
 #, elixir-autogen, icu-format
 msgid "What <code>Money.Input.Currency.currency_for_locale/2</code> returns for the current locale + currency combination — the data the JS hook reads from <code>data-</code> attributes."
-msgstr "Ce que renvoie <code>Money.Input.Currency.currency_for_locale/2</code> pour la combinaison locale + devise actuelle — les données que le hook JS lit dans les attributs <code>data-</code>."
+msgstr "<code>Money.Input.Currency.currency_for_locale/2</code> 针对当前语言环境 + 货币组合返回的内容 — JS 钩子从 <code>data-</code> 属性中读取的数据。"
 
 #: lib/money_input_playground/visualizer/render.ex:96
 #, elixir-autogen, icu-format
 msgid "locale-aware number & money input — try how it behaves across locales and currencies"
-msgstr "Saisie de nombres et de montants sensible à la locale — essayez son comportement dans différentes locales et devises"
+msgstr "支持语言环境的数字和金额输入 — 试试它在不同语言环境和货币下的表现"
 
 #: lib/money_input_playground/visualizer/input_view.ex:73
 #, elixir-autogen, icu-format
 msgid "money_input result"
-msgstr "Résultat money_input"
+msgstr "money_input 结果"
 
 #: lib/money_input_playground/visualizer/input_view.ex:140
 #, elixir-autogen, icu-format
 msgid "phx-hook=\"MoneyInput\" + embedded <code>&lt;.currency_picker&gt;</code>"
-msgstr "phx-hook=\"MoneyInput\" + <code>&lt;.currency_picker&gt;</code> intégré"
+msgstr "phx-hook=\"MoneyInput\" + 嵌入的 <code>&lt;.currency_picker&gt;</code>"
 
 #: lib/money_input_playground/visualizer/input_view.ex:142
 #, elixir-autogen, icu-format
 msgid "phx-hook=\"MoneyInput\" — fixed currency via attr"
-msgstr "phx-hook=\"MoneyInput\" — devise fixe via attribut"
+msgstr "phx-hook=\"MoneyInput\" — 通过属性指定固定货币"
 
 #: lib/money_input_playground/visualizer/input_view.ex:136
 #, elixir-autogen, icu-format
 msgid "with picker"
-msgstr "avec sélecteur"
+msgstr "带选择器"

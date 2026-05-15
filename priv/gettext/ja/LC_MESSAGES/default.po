@@ -56,7 +56,7 @@ msgid "Cross-locale parsing"
 msgstr "ロケール横断のパース"
 
 #: lib/money_input_playground/visualizer/locale_view.ex:35
-#: lib/money_input_playground/visualizer/locale_view.ex:65
+#: lib/money_input_playground/visualizer/locale_view.ex:76
 #, elixir-autogen, icu-format
 msgid "Currency"
 msgstr "通貨"
@@ -72,7 +72,7 @@ msgstr "通貨(money モード)"
 msgid "Currency picker"
 msgstr "通貨ピッカー"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:61
+#: lib/money_input_playground/visualizer/locale_view.ex:64
 #, elixir-autogen, icu-format
 msgid "Decimal"
 msgstr "小数点"
@@ -82,7 +82,7 @@ msgstr "小数点"
 msgid "Default currency"
 msgstr "デフォルト通貨"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:64
+#: lib/money_input_playground/visualizer/locale_view.ex:73
 #, elixir-autogen, icu-format
 msgid "Digits"
 msgstr "桁"
@@ -107,17 +107,17 @@ msgstr "フォーマット"
 msgid "Format across locales"
 msgstr "ロケール横断でフォーマット"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:62
+#: lib/money_input_playground/visualizer/locale_view.ex:67
 #, elixir-autogen, icu-format
 msgid "Group"
 msgstr "桁区切り"
 
-#: lib/money_input_playground/visualizer/render.ex:263
+#: lib/money_input_playground/visualizer/render.ex:265
 #, elixir-autogen, icu-format
 msgid "Headless API: <code>Money.Input.Cast</code>, <code>Money.Input.Validator</code>, <code>Money.Input.Currency</code>."
 msgstr "ヘッドレス API: <code>Money.Input.Cast</code>, <code>Money.Input.Validator</code>, <code>Money.Input.Currency</code>。"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:68
+#: lib/money_input_playground/visualizer/locale_view.ex:85
 #, elixir-autogen, icu-format
 msgid "ISO digits"
 msgstr "ISO 桁数"
@@ -140,7 +140,7 @@ msgstr "<code>Money.Input.Components.money_input/1</code> と <code>Money.Input.
 
 #: lib/money_input_playground/visualizer/format_view.ex:108
 #: lib/money_input_playground/visualizer/input_view.ex:39
-#: lib/money_input_playground/visualizer/locale_view.ex:60
+#: lib/money_input_playground/visualizer/locale_view.ex:61
 #: lib/money_input_playground/visualizer/parse_view.ex:106
 #: lib/money_input_playground/visualizer/render.ex:80
 #, elixir-autogen, icu-format
@@ -152,7 +152,7 @@ msgstr "ロケール"
 msgid "Locale display data"
 msgstr "ロケール表示データ"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:63
+#: lib/money_input_playground/visualizer/locale_view.ex:70
 #, elixir-autogen, icu-format
 msgid "Minus"
 msgstr "マイナス"
@@ -205,7 +205,7 @@ msgstr "小数点はピリオド、桁区切りなし — 例 1234567.89"
 msgid "Plain number"
 msgstr "通常の数値"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:67
+#: lib/money_input_playground/visualizer/locale_view.ex:82
 #, elixir-autogen, icu-format
 msgid "Position"
 msgstr "位置"
@@ -240,7 +240,7 @@ msgstr "同じ入力をすべてのロケールで。<code>Money.parse</code> �
 msgid "Same parsed value, every locale. Watch the decimal/grouping separators invert, the currency symbol position swap, and the native digit system change in Arabic and Persian."
 msgstr "同じパース済みの値をすべてのロケールで。小数点/桁区切り記号が入れ替わり、通貨記号の位置が変わり、アラビア語とペルシャ語でネイティブの数字体系に切り替わる様子を見ることができます。"
 
-#: lib/money_input_playground/visualizer/locale_view.ex:66
+#: lib/money_input_playground/visualizer/locale_view.ex:79
 #, elixir-autogen, icu-format
 msgid "Symbol"
 msgstr "記号"
@@ -270,7 +270,7 @@ msgstr "フォームの値に通貨が含まれていない場合に使用され
 msgid "What <code>Money.Input.Currency.currency_for_locale/2</code> returns for the current locale + currency combination — the data the JS hook reads from <code>data-</code> attributes."
 msgstr "現在のロケール+通貨の組み合わせに対して <code>Money.Input.Currency.currency_for_locale/2</code> が返す内容 — JS フックが <code>data-</code> 属性から読み取るデータです。"
 
-#: lib/money_input_playground/visualizer/render.ex:95
+#: lib/money_input_playground/visualizer/render.ex:96
 #, elixir-autogen, icu-format
 msgid "locale-aware number & money input — try how it behaves across locales and currencies"
 msgstr "ロケール対応の数値・金額入力 — さまざまなロケールと通貨での動作をお試しください"
