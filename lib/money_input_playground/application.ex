@@ -1,6 +1,6 @@
 defmodule MoneyInputPlayground.Application do
   @moduledoc """
-  OTP Application that runs `Money.Input.Visualizer` as a
+  OTP Application that runs `MoneyInputPlayground.Visualizer` as a
   supervised Bandit web server.
 
   Reads configuration from `config/runtime.exs`:

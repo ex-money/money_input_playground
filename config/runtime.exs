@@ -21,11 +21,11 @@ config :money_input_playground,
   ip: ip
 
 # The visualizer ships with a safety gate
-# (`config :ex_money_input, visualizer: true`) so it doesn't
+# (`config :money_input_playground, visualizer: true`) so it doesn't
 # accidentally end up in production. Here we *are* production
 # — the playground exists to expose it — so flip it on at
 # runtime regardless of environment.
-config :ex_money_input, visualizer: true
+config :money_input_playground, visualizer: true
 
 # Let the visualizer's locale dropdown load any CLDR locale on
 # demand, not just the ones pre-compiled into the build.

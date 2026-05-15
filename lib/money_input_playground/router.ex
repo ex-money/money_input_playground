@@ -3,10 +3,10 @@ defmodule MoneyInputPlayground.Router do
   Top-level router for the deployed visualizer.
 
   Handles a couple of host-level concerns the upstream
-  `Money.Input.Visualizer` library doesn't (favicon, robots.txt)
+  `MoneyInputPlayground.Visualizer` library doesn't (favicon, robots.txt)
   and forwards everything else to the visualizer router.
 
-  The visualizer's gate (`config :ex_money_input, visualizer: true`)
+  The visualizer's gate (`config :money_input_playground, visualizer: true`)
   is bypassed by setting the flag at runtime — see
   `config/runtime.exs`. The host is opting into exposing the
   dev tool publicly, which is the documented contract.
@@ -25,7 +25,7 @@ defmodule MoneyInputPlayground.Router do
     conn
     |> put_resp_content_type("image/png")
     |> put_resp_header("cache-control", "public, max-age=31536000, immutable")
-    |> send_resp(200, Money.Input.Visualizer.Assets.logo_png())
+    |> send_resp(200, MoneyInputPlayground.Visualizer.Assets.logo_png())
   end
 
   # Discourage well-behaved crawlers from cataloguing every
@@ -45,5 +45,5 @@ defmodule MoneyInputPlayground.Router do
   end
 
   # Everything else falls through to the visualizer.
-  forward "/", to: Money.Input.Visualizer
+  forward("/", to: MoneyInputPlayground.Visualizer)
 end
