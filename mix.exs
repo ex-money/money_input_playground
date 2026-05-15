@@ -20,7 +20,7 @@ defmodule MoneyInputPlayground.MixProject do
 
   defp deps do
     [
-      {:ex_money_input, "~> 0.1", path: "../money_input"},
+      {:ex_money_input, "~> 0.1"},
       # The visualizer's /input page renders the real HEEx
       # components — that path needs phoenix_html + LiveView at
       # runtime even though we never run a LiveSocket.
